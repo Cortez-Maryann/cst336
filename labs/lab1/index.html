@@ -16,8 +16,43 @@ in html
         <title>Lab 1: Maryann Cortez Personal Website </title>
         <style>
             hr {
-                width: 50%;
+                width: 25%;
             }
+            
+            body {
+                  text-align: center;
+                  background-color: LavenderBlush;
+            }
+            
+            main {
+                display: flex;
+                justify-content: center;
+            }
+            
+            div {
+                text-align:left;
+            }
+            
+            footer {
+                color: gray;
+            }
+            
+            p {
+                font-family: "Times New Roman";
+                font-size:20px;
+                text-align:left;
+            }
+            
+            h1 {
+                font-family: "Arial Black";
+            }
+            
+            nav {
+                font-family: "Times New Roman";
+                font-size:25px;
+            }
+            
+            
         </style>
         
     </head>
@@ -29,23 +64,57 @@ in html
         
         
         <header>
-            <h1>Maryann Cortez</h1>
+            <h1>Maryann Cortez</h1> <!-- block tag -->
         </header>
         
         <hr>
         
         <nav>
             
-            <a href="home.html">Home</a>
+            <a href="home.html">Home</a> <!--inline tag -->
             <a href="about.html">About</a>
             <a href="contact.html">Contact Me</a>
             
         </nav>
         
+        <main>
+            
+            <main>
+            
+            <div>
+                
+                <figure>
+                
+                <img src="img/maryann.jpg">
+                
+            </figure>
+                
+            </div>
+            
+            <div>
+              
+                <p>Hello! <br />Thank you for visiting my personal<br />portfolio website.</p>
+                <p>I am a Junior at CSUMB currently<br />taking the course CST336.</p>
+                <p>Feel free to contact me!</p>
+                
+                </main>
+                
+                
+                
+            </div>
+        </main>
+        
         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
+            <hr>
+            CST336. 2018&copy; Cortez <br />
+            <strong>Homework 1</strong><br />
+            <br />
+            <img src="../../img/logo.png" alt="CSUMB logo">
+            <!-- Include alt attribute, required -->
+            
             
             
         </footer>
