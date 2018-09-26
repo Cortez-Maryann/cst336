@@ -19,7 +19,7 @@
     
     function displayImages(){
         for($i = 0; $i < 5; $i++){
-            echo "<img src= " . randomImage() . " alt=display pic/>";
+            echo "<img src= " . randomImage() . " alt=pic/>";
         }
     }
     
@@ -47,14 +47,16 @@
          
      </div>
      
-    </body>
-    
-    <footer>
+     <footer>
             <hr>
             CST336. 2018&copy; Cortez <br />
             <strong>Homework 2</strong><br />
             <br />
             <img id = "foot" src="../../img/logo.png" alt="CSUMB logo">
             
-        </footer>
+    </footer>
+     
+    </body>
+    
+    
 </html>
