@@ -10,7 +10,20 @@
             "Awww, get otter here",
             "They're otter-ly adorable", 
             "What if I say I'm not like the otters?");
-        echo $quotes[rand(0,10)];
+            
+            $r = rand(0,10);
+            if($r%2 > 0){
+                echo "I love puns! Enjoy these puns. <br/><br/>";
+            }
+            else{
+               echo "Puns are lame, just look at these! <br/><br/>";
+            }
+        
+        for($i = 0; $i < 2; $i++){
+            $r = rand(0,10);
+            echo $quotes[$r];
+            echo "<br/>";
+        }
     }
     
     function randomImage(){
