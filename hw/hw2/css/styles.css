@@ -1,0 +1,46 @@
+/* 15 CSS rules */
+
+body {
+    background-image:url("../img/beach.png");
+    background-size:cover;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+img {
+    padding-right: 40px;
+    max-width: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial Black;
+}
+
+header {
+    padding-top: 400px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 6px 4px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: white;
+}
