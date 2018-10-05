@@ -30,16 +30,18 @@
             // else {
             //     $symbol = "seven";
             // }
+            
+            }
         
         
             switch($random_value){
-                case 0: $symbol = "seven";
+                case 0: echo "<img src= 'img/seven.png' alt= 'seven' title= 'Seven' width= '70px' />";                        
                         break;
                 
-                case 1: $symbol = "lemon";
+                case 1: echo "<img src= 'img/lemon.png' alt= 'lemon' title= 'Lemon' width= '70px' />";
                         break;
                         
-                case 2: $symbol = "cherry";
+                case 2: echo "<img src= 'img/cherry.png' alt= 'cherry' title= 'Cherry' width= '70px' />";
                         break;
             }
             
@@ -47,7 +49,7 @@
         
             echo "<img src=\"img/$symbol.png\" alt=\"$symbol\" title=\"".ucfirst($symbol)."\"/>";
             
-        }//displaySymbol
+        //displaySymbol
         
         function displayPoints($random_value1, $random_value2, $random_value3){
             
@@ -78,18 +80,19 @@
             echo "</div>";
         }
         
+        $random_Value1;
+        $random_Value2;
+        $random_Value3;
         
         for($i=1; $i<4; $i++){
             ${"randomValue" . $i } = rand(0,2);
             displaySymbol(${"randomValue" . $i});
         }
         
+        displayPoints($random_Value1, $random_Value2, $random_Value3);
         
-        // echo "<br> Random value 1: $random_value1 <br>";
-        // echo "Random value 2: $random_value2 <br>";
-        // echo "Random value 3: $random_value3 <br>";
         
-        displayPoints($random_value1, $random_value2, $random_value3);
+        
         
         
         
