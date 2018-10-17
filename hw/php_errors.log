@@ -1,3 +1,5 @@
 [26-Sep-2018 05:18:55 UTC] PHP Fatal error:  Call to undefined function randomImage() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 38
 [26-Sep-2018 05:18:55 UTC] PHP Stack trace:
 [26-Sep-2018 05:18:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[17-Oct-2018 08:04:34 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 44
+[17-Oct-2018 08:05:22 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 44

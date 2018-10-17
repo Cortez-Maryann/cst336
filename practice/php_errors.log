@@ -113,3 +113,251 @@
 [01-Oct-2018 20:12:35 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/practice/p4/index.php on line 51
 [01-Oct-2018 20:12:35 UTC] PHP Stack trace:
 [01-Oct-2018 20:12:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/p4/index.php:0
+[15-Oct-2018 20:22:26 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:26 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:26 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:38 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:38 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:38 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:39 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:39 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:39 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:40 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:40 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:40 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:40 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:40 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:40 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:41 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:41 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:41 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:41 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:41 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:41 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:41 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:41 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:41 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:42 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:42 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:42 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:42 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:42 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:42 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:43 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:43 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:43 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:43 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:43 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:43 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:44 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:44 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:44 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:44 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:44 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:44 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:44 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:44 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:44 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:45 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:45 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:45 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:45 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:45 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:45 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:46 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:46 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:46 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:46 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:46 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:46 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:22:47 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 48
+[15-Oct-2018 20:22:47 UTC] PHP Stack trace:
+[15-Oct-2018 20:22:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:22:47 UTC] PHP   2. printer() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:113
+[15-Oct-2018 20:24:54 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:24:54 UTC] PHP Stack trace:
+[15-Oct-2018 20:24:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:24:54 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:24:54 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:24:54 UTC] PHP Stack trace:
+[15-Oct-2018 20:24:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:24:54 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:25:03 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:25:03 UTC] PHP Stack trace:
+[15-Oct-2018 20:25:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:25:03 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:25:03 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:25:03 UTC] PHP Stack trace:
+[15-Oct-2018 20:25:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:25:03 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:25:05 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:25:05 UTC] PHP Stack trace:
+[15-Oct-2018 20:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:25:05 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:25:05 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:25:05 UTC] PHP Stack trace:
+[15-Oct-2018 20:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:25:05 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:25:05 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:25:05 UTC] PHP Stack trace:
+[15-Oct-2018 20:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:25:05 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:25:05 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:25:05 UTC] PHP Stack trace:
+[15-Oct-2018 20:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:25:05 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:25:05 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:25:05 UTC] PHP Stack trace:
+[15-Oct-2018 20:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:25:05 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:25:05 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:25:05 UTC] PHP Stack trace:
+[15-Oct-2018 20:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:25:05 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:26:43 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:26:43 UTC] PHP Stack trace:
+[15-Oct-2018 20:26:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:26:43 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:26:43 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:26:43 UTC] PHP Stack trace:
+[15-Oct-2018 20:26:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:26:43 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:26:44 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:26:44 UTC] PHP Stack trace:
+[15-Oct-2018 20:26:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:26:44 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:26:44 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:26:44 UTC] PHP Stack trace:
+[15-Oct-2018 20:26:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:26:44 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:26:45 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:26:45 UTC] PHP Stack trace:
+[15-Oct-2018 20:26:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:26:45 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:26:45 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:26:45 UTC] PHP Stack trace:
+[15-Oct-2018 20:26:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:26:45 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:114
+[15-Oct-2018 20:27:37 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 39
+[15-Oct-2018 20:27:37 UTC] PHP Stack trace:
+[15-Oct-2018 20:27:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:27:37 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:115
+[15-Oct-2018 20:27:37 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 39
+[15-Oct-2018 20:27:37 UTC] PHP Stack trace:
+[15-Oct-2018 20:27:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:27:37 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:115
+[15-Oct-2018 20:27:38 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 39
+[15-Oct-2018 20:27:38 UTC] PHP Stack trace:
+[15-Oct-2018 20:27:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:27:38 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:115
+[15-Oct-2018 20:27:38 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 39
+[15-Oct-2018 20:27:38 UTC] PHP Stack trace:
+[15-Oct-2018 20:27:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:27:38 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:115
+[15-Oct-2018 20:27:39 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 39
+[15-Oct-2018 20:27:39 UTC] PHP Stack trace:
+[15-Oct-2018 20:27:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:27:39 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:115
+[15-Oct-2018 20:27:39 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 39
+[15-Oct-2018 20:27:39 UTC] PHP Stack trace:
+[15-Oct-2018 20:27:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:27:39 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:115
+[15-Oct-2018 20:27:39 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 39
+[15-Oct-2018 20:27:39 UTC] PHP Stack trace:
+[15-Oct-2018 20:27:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:27:39 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:115
+[15-Oct-2018 20:27:39 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 39
+[15-Oct-2018 20:27:39 UTC] PHP Stack trace:
+[15-Oct-2018 20:27:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:27:39 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:115
+[15-Oct-2018 20:27:40 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 39
+[15-Oct-2018 20:27:40 UTC] PHP Stack trace:
+[15-Oct-2018 20:27:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:27:40 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:115
+[15-Oct-2018 20:27:40 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 39
+[15-Oct-2018 20:27:40 UTC] PHP Stack trace:
+[15-Oct-2018 20:27:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:27:40 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:115
+[15-Oct-2018 20:30:05 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:30:05 UTC] PHP Stack trace:
+[15-Oct-2018 20:30:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:30:05 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:111
+[15-Oct-2018 20:30:06 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:30:06 UTC] PHP Stack trace:
+[15-Oct-2018 20:30:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:30:06 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:111
+[15-Oct-2018 20:30:07 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:30:07 UTC] PHP Stack trace:
+[15-Oct-2018 20:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:30:07 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:111
+[15-Oct-2018 20:30:07 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:30:07 UTC] PHP Stack trace:
+[15-Oct-2018 20:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:30:07 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:111
+[15-Oct-2018 20:32:14 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:32:14 UTC] PHP Stack trace:
+[15-Oct-2018 20:32:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:32:14 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:111
+[15-Oct-2018 20:32:15 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:32:15 UTC] PHP Stack trace:
+[15-Oct-2018 20:32:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:32:15 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:111
+[15-Oct-2018 20:32:23 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:32:23 UTC] PHP Stack trace:
+[15-Oct-2018 20:32:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:32:23 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:111
+[15-Oct-2018 20:32:23 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:32:23 UTC] PHP Stack trace:
+[15-Oct-2018 20:32:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:32:23 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:111
+[15-Oct-2018 20:32:24 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:32:24 UTC] PHP Stack trace:
+[15-Oct-2018 20:32:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:32:24 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:111
+[15-Oct-2018 20:46:05 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:46:05 UTC] PHP Stack trace:
+[15-Oct-2018 20:46:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:46:05 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:140
+[15-Oct-2018 20:46:06 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:46:06 UTC] PHP Stack trace:
+[15-Oct-2018 20:46:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:46:06 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:140
+[15-Oct-2018 20:46:07 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:46:07 UTC] PHP Stack trace:
+[15-Oct-2018 20:46:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:46:07 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:140
+[15-Oct-2018 20:46:07 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:46:07 UTC] PHP Stack trace:
+[15-Oct-2018 20:46:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:46:07 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:140
+[15-Oct-2018 20:46:50 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:46:50 UTC] PHP Stack trace:
+[15-Oct-2018 20:46:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:46:50 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:140
+[15-Oct-2018 20:46:51 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 20:46:51 UTC] PHP Stack trace:
+[15-Oct-2018 20:46:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 20:46:51 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:140
+[15-Oct-2018 23:49:44 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[15-Oct-2018 23:49:44 UTC] PHP Stack trace:
+[15-Oct-2018 23:49:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[15-Oct-2018 23:49:44 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:140
