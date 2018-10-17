@@ -4,34 +4,34 @@
         
         $score = 0;
         if(!isset($_GET['question1']) && !isset($_GET['question2']) && !isset($_GET['question3']) && !isset($_GET['question4a']) && !isset($_GET['question4b']) && !isset($_GET['question4c']) && !isset($_GET['question4d']) && !isset($_GET['question5']));
+        
+        else{
+            if($_GET['question1'] == "c" ){
+            $score++;
+            }
             
-        if($_GET['question1'] == "c" ){
-            $score++;
-        }
-        
-        if($_GET['question2'] == "a"){
-            $score++;
-        }
-        
-        if($_GET['question3'] == "b"){
-            $score++;
-        }
-        
-        if($_GET['question4a'] == "a" && $_GET['question4b'] == "b" && $_GET['question4d'] == "d" && $_GET['question4c'] == ""){
-            $score++;
-        }
-        if($_GET['question5'] == "b"){
-            $score++;
+            if($_GET['question2'] == "a"){
+                $score++;
+            }
+            
+            if($_GET['question3'] == "b"){
+                $score++;
+            }
+            
+            if($_GET['question4a'] == "a" && $_GET['question4b'] == "b" && $_GET['question4d'] == "d" && $_GET['question4c'] == ""){
+                $score++;
+            }
+            if($_GET['question5'] == "b"){
+                $score++;
+    
+            }
+            if($_GET['question6'] == "a"){
+                $score++;
 
+            }
+            echo $_GET['first'] . " " . $_GET['last'] . " you earned a score of " . $score . "/6.";
         }
-        if($_GET['question6'] == "a"){
-            $score++;
-
-        }
-        
-        
-        
-        echo $_GET['first'] . " " . $_GET['last'] . " you earned a score of " . $score . "/6.";
+            
     }
 
     
