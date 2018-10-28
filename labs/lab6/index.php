@@ -46,7 +46,7 @@ function filterProducts() {
 
     }
     
-    if (!empty($_GET['priceFrom']) &&){
+    if (!empty($_GET['priceFrom'])){
         //This SQL prevents SQL INJECTION by using a named parameter
          $sql .=  " AND price >=  :priceFrom";
           $namedParameters[':priceFrom'] = $_GET['priceFrom'] ;
@@ -70,7 +70,16 @@ function filterProducts() {
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($namedParameters);
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC);  
-    print_r($records);
+    
+    foreach ($records as $record) {
+        
+        echo "<a href='productInfo.php?productId=" . $record['productId'] ."'>";
+        echo $record['productName'];
+        echo "</a> ";
+        echo $record['productDescription'] . " $" .  $record['price'] .   "<br>";   
+        
+    }
+    //print_r($records);
 
 
 }
@@ -81,18 +90,11 @@ function filterProducts() {
 <html>
     <head>
         <title> Lab 6: Ottermart Product Search</title>
-        
-        <style>
-            body {
-                text-align:center;
-            }
-            
-            
-        </style>
     </head>
     <body>
         
-        <h1> Ottermart Product Search </h1>
+        <h1> Ottermart </h1>
+        <h2> Product Search </h2>
         
         <form>
             
@@ -104,29 +106,22 @@ function filterProducts() {
                <?=displayCategories()?>
             </select>
             
-            <br />
-            
-            Price: 
             Price: From: <input type="text" name="priceFrom"  /> 
-            To: <input type="text" name="priceTo"  />
-            
-            <br />
-            
-            Order result by:
-            <input type="radio" name= "orderBy" value="productPrice"> Price
-            <input type="radio" name= "orderBy" value="productName"> Name
-            
-            <br />
-            
+             To: <input type="text" name="priceTo"  />
+            <br>
+            Order By:
+            Price <input type="radio" name="orderBy" value="productPrice">
+            Name <input type="radio" name="orderBy" value="productName">
+            <br>
             <input type="submit" name="submit" value="Search!"/>
-            <br />
-            
-            
-            
         </form>
-        
+        <br>
+        <hr>
         
         <?= filterProducts() ?>
+        
+    
+
 
     </body>
 </html>

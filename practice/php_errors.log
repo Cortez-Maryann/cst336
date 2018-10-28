@@ -361,3 +361,15 @@
 [15-Oct-2018 23:49:44 UTC] PHP Stack trace:
 [15-Oct-2018 23:49:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
 [15-Oct-2018 23:49:44 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:140
+[22-Oct-2018 20:15:51 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[22-Oct-2018 20:15:51 UTC] PHP Stack trace:
+[22-Oct-2018 20:15:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[22-Oct-2018 20:15:51 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:140
+[22-Oct-2018 20:16:03 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[22-Oct-2018 20:16:03 UTC] PHP Stack trace:
+[22-Oct-2018 20:16:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[22-Oct-2018 20:16:03 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:140
+[24-Oct-2018 19:04:56 UTC] PHP Fatal error:  Call to undefined function Itinerary() in /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php on line 38
+[24-Oct-2018 19:04:56 UTC] PHP Stack trace:
+[24-Oct-2018 19:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
+[24-Oct-2018 19:04:56 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:140

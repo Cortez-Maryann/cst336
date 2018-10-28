@@ -23,14 +23,11 @@
         public $order;
         public $places;
         
-        function __construct($w, $x, $y, $z){
-            $month = $w;
-            $country = $x;
-            $order = $y;
-            $places = $z;
+        function __construct() {
+            $this->addToItiterary();
         }
         
-    }
+    
 
 
     function addToItiterary(){
@@ -44,6 +41,8 @@
         global $itinerary;
         printr($itinerary);
     }
+    
+    
 
     function displayTable(){
         $numOfDays;
