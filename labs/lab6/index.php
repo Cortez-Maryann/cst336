@@ -79,7 +79,7 @@ function filterProducts() {
         echo $record['productDescription'] . " $" .  $record['price'] .   "<br>";   
         
     }
-    //print_r($records);
+    //print_r($records
 
 
 }

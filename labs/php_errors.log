@@ -349,3 +349,41 @@ Stack trace:
 [22-Oct-2018 22:40:46 UTC] PHP Stack trace:
 [22-Oct-2018 22:40:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
 [22-Oct-2018 22:40:46 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:37
+[29-Oct-2018 21:16:36 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/cst336/labs/lab7/admin.php on line 31
+[29-Oct-2018 21:16:36 UTC] PHP Stack trace:
+[29-Oct-2018 21:16:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[29-Oct-2018 21:41:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 28
+[29-Oct-2018 21:41:13 UTC] PHP Stack trace:
+[29-Oct-2018 21:41:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[29-Oct-2018 21:41:13 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:13
+[29-Oct-2018 21:41:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 28
+[29-Oct-2018 21:41:56 UTC] PHP Stack trace:
+[29-Oct-2018 21:41:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[29-Oct-2018 21:41:56 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:13
+[29-Oct-2018 21:44:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 28
+[29-Oct-2018 21:44:31 UTC] PHP Stack trace:
+[29-Oct-2018 21:44:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[29-Oct-2018 21:44:31 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:13
+[29-Oct-2018 21:44:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 28
+[29-Oct-2018 21:44:32 UTC] PHP Stack trace:
+[29-Oct-2018 21:44:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[29-Oct-2018 21:44:32 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:13
+[29-Oct-2018 21:44:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 28
+[29-Oct-2018 21:44:35 UTC] PHP Stack trace:
+[29-Oct-2018 21:44:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:0
+[29-Oct-2018 21:44:35 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:3
+[29-Oct-2018 21:44:35 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 23
+[29-Oct-2018 21:44:35 UTC] PHP Stack trace:
+[29-Oct-2018 21:44:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:0
+[29-Oct-2018 21:44:35 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:24
+[29-Oct-2018 21:44:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 28
+[29-Oct-2018 21:44:40 UTC] PHP Stack trace:
+[29-Oct-2018 21:44:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[29-Oct-2018 21:44:40 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:13
+[29-Oct-2018 21:56:55 UTC] PHP Fatal error:  Call to undefined function size() in /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php on line 27
+[29-Oct-2018 21:56:55 UTC] PHP Stack trace:
+[29-Oct-2018 21:56:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:0
+[29-Oct-2018 22:34:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 36
+[29-Oct-2018 22:34:22 UTC] PHP Stack trace:
+[29-Oct-2018 22:34:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:0
+[29-Oct-2018 22:34:22 UTC] PHP   2. getProductInfo() /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:10
