@@ -1,24 +1,34 @@
 var imgPlayer;
-var btnRock;
-var btnPaper;
-var btnScissors;
-var btnGo;
+var playerButtonRock;
+var playerButtonPaper;
+var playerButtonScissors;
+var buttonGo;
 var computerChoice;
 var playerChoice;
 
+const COLORS = {
+	lightGray: '#EEEEEE',
+	darkGray: '#888888',
+	yellow: '#FFFF00',
+	silver: '#C0C0C0'
+}
+
 function init() {
 	imgPlayer = document.getElementById("imgPlayer");
-	btnRock = document.getElementById("btnRock");
-	btnPaper = document.getElementById("btnPaper");
-	btnScissors = document.getElementById("btnScissors");
-	btnGo = document.getElementById("btnGo");
+	playerButtonRock = document.getElementById("btnRock");
+	playerButtonPaper = document.getElementById("btnPaper");
+	playerButtonScissors = document.getElementById("btnScissors");
+	buttonGo = document.getElementById("btnGo");
 	deselectAll();
 }
 
+/**
+ * This function deselects the previous chosen move.
+ */
 function deselectAll() {
-	btnRock.style.backgroundColor = 'silver';
-	btnPaper.style.backgroundColor = 'silver';
-	btnScissors.style.backgroundColor = 'silver';
+	playerButtonRock.style.backgroundColor = COLORS.silver;
+	playerButtonPaper.style.backgroundColor = COLORS.silver;
+	playerButtonScissors.style.backgroundColor = COLORS.silver;
 }
 
 function startGame() {
@@ -27,11 +37,11 @@ function startGame() {
 
 function replay() {
 	document.getElementById('endScreen').style.display = 'none';
-	btnGo.style.display = 'none';
+	buttonGo.style.display = 'none';
 	deselectAll();
-	document.getElementById('lblRock').style.backgroundColor = '#EEEEEE';
-	document.getElementById('lblPaper').style.backgroundColor = '#EEEEEE';
-	document.getElementById('lblScissors').style.backgroundColor = '#EEEEEE';
+	document.getElementById('lblRock').style.backgroundColor = COLORS.lightGray;
+	document.getElementById('lblPaper').style.backgroundColor = COLORS.lightGray;
+	document.getElementById('lblScissors').style.backgroundColor = COLORS.lightGray;
 	imgPlayer.src = 'images/question.png';
 	document.getElementById('imgComputer').src = 'images/question.png';
 }
@@ -40,10 +50,10 @@ function select(choice) {
 	playerChoice = choice;
 	imgPlayer.src = 'images/' + choice + '.png';
 	deselectAll();
-	if (choice == 'rock') btnRock.style.backgroundColor = '#888888';
-	if (choice == 'paper') btnPaper.style.backgroundColor = '#888888';
-	if (choice == 'scissors') btnScissors.style.backgroundColor = '#888888';
-	btnGo.style.display = 'block';
+	if (choice == 'rock') playerButtonRock.style.backgroundColor = COLORS.darkGray;
+	if (choice == 'paper') playerButtonPaper.style.backgroundColor = COLORS.darkGray;
+	if (choice == 'scissors') playerButtonScissors.style.backgroundColor = COLORS.darkGray;
+	buttonGo.style.display = 'block';
 }
 
 function go() {
@@ -53,15 +63,15 @@ function go() {
 	var numChoice = Math.floor(Math.random() * 3);
 	var imgComputer = document.getElementById('imgComputer');
 
-	document.getElementById('lblRock').style.backgroundColor = '#EEEEEE';
-	document.getElementById('lblPaper').style.backgroundColor = '#EEEEEE';
-	document.getElementById('lblScissors').style.backgroundColor = '#EEEEEE';
+	document.getElementById('lblRock').style.backgroundColor = COLORS.lightGray;
+	document.getElementById('lblPaper').style.backgroundColor = COLORS.lightGray;
+	document.getElementById('lblScissors').style.backgroundColor = COLORS.lightGray;
 
 	switch (numChoice) {
 		case 0:
 			computerChoice = 'rock';
 			imgComputer.src = 'images/rock.png';
-			document.getElementById('lblRock').style.backgroundColor = 'yellow';
+			document.getElementById('lblRock').style.backgroundColor = COLORS.yellow;
 			if (playerChoice = 'rock') {
 				txtEndTitle.innerHTML = '';
 				txtEndMessage.innerHTML = 'Tie';
@@ -79,7 +89,7 @@ function go() {
 		case 1:
 			computerChoice = 'paper';
 			imgComputer.src = 'images/paper.png';
-			document.getElementById('lblPaper').style.backgroundColor = 'yellow';
+			document.getElementById('lblPaper').style.backgroundColor = COLORS.yellow;
 			if (playerChoice = 'rock') {
 				txtEndTitle.innerHTML = '';
 				txtEndMessage.innerHTML = 'You Lose';
@@ -97,7 +107,7 @@ function go() {
 		case 2:
 			computerChoice = 'scissors';
 			imgComputer.src = 'images/scissors.png';
-			document.getElementById('lblScissors').style.backgroundColor = 'yellow';
+			document.getElementById('lblScissors').style.backgroundColor = COLORS.yellow;
 
 			if (playerChoice = 'rock') {
 				txtEndTitle.innerHTML = '';
