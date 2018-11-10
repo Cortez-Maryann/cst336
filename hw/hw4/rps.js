@@ -23,7 +23,7 @@ function init() {
 }
 
 /**
- * This function deselects the previous chosen move.
+ * Deselects the previous chosen move.
  */
 function deselectAll() {
 	playerButtonRock.style.backgroundColor = COLORS.silver;
@@ -31,104 +31,104 @@ function deselectAll() {
 	playerButtonScissors.style.backgroundColor = COLORS.silver;
 }
 
+function setBackgroundColor(cssClass, color) {
+	document.getElementById(cssClass).style.backgroundColor = color;
+}
+
+/**
+ * Closes the introduction screen to display the game screen.
+ */
 function startGame() {
 	document.getElementById('introScreen').style.display = 'none';
 }
 
+/**
+ * Resets the finished game.
+ */
 function replay() {
 	document.getElementById('endScreen').style.display = 'none';
 	buttonGo.style.display = 'none';
 	deselectAll();
-	document.getElementById('lblRock').style.backgroundColor = COLORS.lightGray;
-	document.getElementById('lblPaper').style.backgroundColor = COLORS.lightGray;
-	document.getElementById('lblScissors').style.backgroundColor = COLORS.lightGray;
+	setBackgroundColor('lblRock', COLORS.lightGray);
+	setBackgroundColor('lblPaper', COLORS.lightGray);
+	setBackgroundColor('lblScissors', COLORS.lightGray);
 	imgPlayer.src = 'images/question.png';
 	document.getElementById('imgComputer').src = 'images/question.png';
 }
 
+
 function select(choice) {
 	playerChoice = choice;
-	imgPlayer.src = 'images/' + choice + '.png';
+	imgPlayer.src = `images/${choice}.png`;
 	deselectAll();
-	if (choice == 'rock') playerButtonRock.style.backgroundColor = COLORS.darkGray;
-	if (choice == 'paper') playerButtonPaper.style.backgroundColor = COLORS.darkGray;
-	if (choice == 'scissors') playerButtonScissors.style.backgroundColor = COLORS.darkGray;
+	if (choice == 0) playerButtonRock.style.backgroundColor = COLORS.darkGray;
+	if (choice == 1) playerButtonPaper.style.backgroundColor = COLORS.darkGray;
+	if (choice == 2) playerButtonScissors.style.backgroundColor = COLORS.darkGray;
 	buttonGo.style.display = 'block';
 }
 
-function go() {
+function setResult(title, message) {
+	txtEndTitle.innerHTML = title;
+	txtEndMessage.innerHTML = message;
+}
+
+function gameResult(computerResult, playerResult) {
+	let resultDifference = Math.abs(computerResult - playerResult);
+
+	if (computerResult === playerResult) {
+		return setResult('', 'Tie');
+	}
+
+	if (resultDifference === 1) {
+		if (computerResult > playerResult) {
+			return setResult('', 'You Lose');
+		}
+		return setResult('', 'You Win');
+	}
+
+	if (resultDifference === 2) {
+		if(computerResult < playerResult){
+			return setResult('', 'You Lose');
+		}
+		return setResult('', 'You Win');
+	}
+}
+
+function start() {
 	var txtEndMessage = document.getElementById('txtEndMessage');
 	var txtEndTitle = document.getElementById('txtEndTitle');
 
 	var numChoice = Math.floor(Math.random() * 3);
 	var imgComputer = document.getElementById('imgComputer');
 
-	document.getElementById('lblRock').style.backgroundColor = COLORS.lightGray;
-	document.getElementById('lblPaper').style.backgroundColor = COLORS.lightGray;
-	document.getElementById('lblScissors').style.backgroundColor = COLORS.lightGray;
+	setBackgroundColor('lblRock', COLORS.lightGray);
+	setBackgroundColor('lblPaper', COLORS.lightGray);
+	setBackgroundColor('lblScissors', COLORS.lightGray);
 
 	switch (numChoice) {
 		case 0:
 			computerChoice = 'rock';
 			imgComputer.src = 'images/rock.png';
-			document.getElementById('lblRock').style.backgroundColor = COLORS.yellow;
-			if (playerChoice = 'rock') {
-				txtEndTitle.innerHTML = '';
-				txtEndMessage.innerHTML = 'Tie';
-			}
-			else if (playerChoice = 'paper') {
-				txtEndTitle.innerHTML = '';
-				txtEndMessage.innerHTML = 'You Win';
-			}
-			else if (playerChoice = 'scissors') {
-				txtEndTitle.innerHTML = '';
-				txtEndMessage.innerHTML = 'You Lose';
-			}
+			setBackgroundColor('lblRock', COLORS.yellow);
 			break;
 
 		case 1:
 			computerChoice = 'paper';
 			imgComputer.src = 'images/paper.png';
-			document.getElementById('lblPaper').style.backgroundColor = COLORS.yellow;
-			if (playerChoice = 'rock') {
-				txtEndTitle.innerHTML = '';
-				txtEndMessage.innerHTML = 'You Lose';
-			}
-			else if (playerChoice = 'paper') {
-				txtEndTitle.innerHTML = '';
-				txtEndMessage.innerHTML = 'Tie';
-			}
-			else if (playerChoice = 'scissors') {
-				txtEndTitle.innerHTML = '';
-				txtEndMessage.innerHTML = 'You Win';
-			}
+			setBackgroundColor('lblPaper', COLORS.yellow);
 			break;
 		
 		case 2:
 			computerChoice = 'scissors';
 			imgComputer.src = 'images/scissors.png';
-			document.getElementById('lblScissors').style.backgroundColor = COLORS.yellow;
-
-			if (playerChoice = 'rock') {
-				txtEndTitle.innerHTML = '';
-				txtEndMessage.innerHTML = 'You Win';
-			}
-
-			else if (playerChoice = 'paper') {
-				txtEndTitle.innerHTML = '';
-				txtEndMessage.innerHTML = 'You Lose';
-			}
-
-			else if (playerChoice = 'scissors') {
-				txtEndTitle.innerHTML = '';
-				txtEndMessage.innerHTML = 'Tie';
-			}
+			setBackgroundColor('lblScissors', COLORS.yellow);
 			break;
 		default:
 			console.log('This shouldn\'t happen');
 			break;			
 	}
-
+	
+	gameResult(computerChoice, playerChoice);
 	document.getElementById('endScreen').style.display = 'block';
 }
 

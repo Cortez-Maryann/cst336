@@ -6,40 +6,40 @@
 	</head>
 	<body onload="init()">
 		<div id="gameWindow">
-			
+
 			<div id="introScreen">
 				<div id="introScreenContent">
 					<h1>Rock Paper Scissors</h1>
 					<div id="btnStart" class="button" onclick="startGame()">Start Game</div>
 				</div>
 			</div>
-			
+
 			<div id="endScreen">
 				<div id="endScreenContent">
 					<h1 id="txtEndTitle">Something beats something</h1>
 					<h1 id="txtEndMessage">You Win, Lose, or Tie</h1>
 					<h1 id="btnReplay" class="button" onclick="replay()">Play Again</h1>
-					
+
 				</div>
-				
+
 			</div>
-				
-			
-			<div id="btnGo" onclick="go()">GO</div>
+
+
+			<div id="btnGo" onclick="start()">GO</div>
 
 			<div id="playerPanel">
 				<h2>Player</h2>
 				<img id="imgPlayer" src="images/question.png">
 				<br><br>
-				<div id="btnRock" class="iconButton" onclick="select('rock')">
+				<div id="btnRock" class="iconButton" onclick="select(0)">
 					<img src="images/rock.png">
 					<br>Rock
 				</div>
-				<div id="btnPaper" class="iconButton" onclick="select('paper')">
+				<div id="btnPaper" class="iconButton" onclick="select(1)">
 					<img src="images/paper.png">
 					<br>Paper
 				</div>
-				<div id="btnScissors" class="iconButton" onclick="select('scissors')">
+				<div id="btnScissors" class="iconButton" onclick="select(2)">
 					<img src="images/scissors.png">
 					<br>Scissors
 				</div>
@@ -63,8 +63,8 @@
 				</div>
 			</div>
 
-			
+
 		</div>
 	</body>
-</html>
 
+</html>
