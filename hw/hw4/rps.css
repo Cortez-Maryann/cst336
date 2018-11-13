@@ -4,7 +4,7 @@
 	width: 600px;
 	border: 2px solid black;
 	height: 400px;
-	background-color: #DDDDDD;
+	background-image:url("images/background.jpg");
 }
 
 #playerPanel{
@@ -93,13 +93,31 @@ h2{
 }
 
 #introScreenContent{
-	width: 400px;
-	height: 200px;
+	width: 500px;
+	height: 250px;
 	padding: 20px;
-	background-color: white;
+	background-image:url("images/background.jpg");
 	margin: 80 auto;
 	text-align: center;
 }
+
+#howToPlay {
+	position: absolute;
+	z-index: 100;
+	width: 600px;
+	height: 400px;
+	background-image:url("images/background.jpg");
+	display: none;
+}
+
+#howToPlayContent {
+	padding-left: 30px;
+}
+
+h1 {
+	text-align: center;
+}
+
 
 #endScreen{
 	position: absolute;

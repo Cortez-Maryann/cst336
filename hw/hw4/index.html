@@ -9,19 +9,44 @@
 
 			<div id="introScreen">
 				<div id="introScreenContent">
-					<h1>Rock Paper Scissors</h1>
-					<div id="btnStart" class="button" onclick="startGame()">Start Game</div>
+					<h1>Reinhardt Junkrat Widowmaker</h1>
+					<div id="btnStart" class="button" onclick="startGame()">Start Game</div><br>
+					<div id="btnHelp" class="button" onclick="help()">How To Play</div>
 				</div>
 			</div>
 
 			<div id="endScreen">
 				<div id="endScreenContent">
-					<h1 id="txtEndTitle">''</h1>
-					<h1 id="txtEndMessage">You Win, Lose, or Tie</h1>
+					<h1 id="txtEndTitle">Something</h1>
+					<h1 id="txtEndMessage">Result</h1>
 					<h1 id="btnReplay" class="button" onclick="replay()">Play Again</h1>
-
 				</div>
-
+			</div>
+			
+			<div id="howToPlay">
+				<div id="howToPlayContent">
+					<h1>How To Play</h1>
+					<h5>Based on the classic game of rock paper scissors, I bring to you an Overwatch Alternative!<br>
+						You have three characters with different abilities that allow you to defeat one.<br>
+						<br>
+						<strong>Reinhardt</strong> is a close combat fighter who uses a shield for protection.<br>
+						<strong>Weakness:</strong> projectiles <br>
+						<strong>Strength:</strong> shield
+						<br>
+						<br>
+						<strong>Junkrat</strong> shoots projectiles that can destroy sheilds quickly.<br>
+						<strong>Weakness:</strong> snipers<br>
+						<strong>Strength:</strong> projectiles
+						<br>
+						<br>
+						<strong>Widowmaker</strong> is a sniper that can shoot from a safe distance, but cannot shoot through sheilds.<br>
+						<strong>Weakness:</strong> shields<br>
+						<strong>Strength:</strong> sniper
+						<br>
+						</h5>
+						<div id="btnStart" class="button" onclick="startGame()">Start Game</div><br>
+				</div>
+				
 			</div>
 
 
@@ -29,37 +54,37 @@
 
 			<div id="playerPanel">
 				<h2>Player</h2>
-				<img id="imgPlayer" src="images/question.png">
+				<img id="imgPlayer" src="images/select.png">
 				<br><br>
 				<div id="btnRock" class="iconButton" onclick="select(0)">
-					<img src="images/rock.png">
-					<br>Rock
+					<img src="images/rein.png">
+					<br>Rein
 				</div>
 				<div id="btnPaper" class="iconButton" onclick="select(1)">
-					<img src="images/paper.png">
-					<br>Paper
+					<img src="images/junk.png">
+					<br>Junkrat
 				</div>
 				<div id="btnScissors" class="iconButton" onclick="select(2)">
-					<img src="images/scissors.png">
-					<br>Scissors
+					<img src="images/widow.png">
+					<br>Widow
 				</div>
 			</div>
 
 			<div id="computerPanel">
 				<h2>Computer</h2>
-				<img id="imgComputer" src="images/question.png">
+				<img id="imgComputer" src="images/select.png">
 				<br><br>
-				<div id="lblRock" class="iconLabel">
-					<img src="images/rock.png">
-					<br>Rock
+				<div id="lblRein" class="iconLabel">
+					<img src="images/rein.png">
+					<br>Rein
 				</div>
-				<div id="lblPaper" class="iconLabel">
-					<img src="images/paper.png">
-					<br>Paper
+				<div id="lblJunk" class="iconLabel">
+					<img src="images/junk.png">
+					<br>Junkrat
 				</div>
-				<div id="lblScissors" class="iconLabel">
-					<img src="images/scissors.png">
-					<br>Scissors
+				<div id="lblWidow" class="iconLabel">
+					<img src="images/widow.png">
+					<br>Widow
 				</div>
 			</div>
 
