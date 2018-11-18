@@ -87,8 +87,9 @@ function checkLetter(letter) {
 }
 
 function pickWord() {
-    var randomInt = Math.floor(Math.random() * words.length);
-    selectedWord = words[randomInt].toUpperCase();
+    let randInt = Math.floor(Math.random() * words.length);
+    selectedWord = words[randInt].word.toUpperCase();
+    selectedHint = words[randInt].hint;
 }
 
 function updateWord(positions, letter) {
