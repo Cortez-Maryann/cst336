@@ -97,7 +97,7 @@ function updateWord(positions, letter) {
         board[pos] = letter;
     }
     
-    updateBoard();
+    updateBoard(board);
     
     if (!board.includes('_')) {
         endGame(true);
