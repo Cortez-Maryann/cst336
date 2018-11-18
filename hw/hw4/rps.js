@@ -1,4 +1,3 @@
-
 var imgPlayer;
 var playerButtonRein;
 var playerButtonJunkrat;
@@ -6,7 +5,6 @@ var playerButtonWidowmaker;
 var buttonGo;
 var computerChoice;
 var playerChoice;
-
 
 const COLORS = {
 	lightGray: '#EEEEEE',
@@ -47,6 +45,9 @@ function startGame() {
 	
 }
 
+/**
+ * Displays the How To Play screen.
+ */
 function help(){
 	document.getElementById("howToPlay").style.display = 'block';
 }
@@ -86,7 +87,6 @@ function select(choice) {
 	buttonGo.style.display = 'block';
 }
 
-
 /**
  * Displays the result from the game.
  */
@@ -96,7 +96,6 @@ function setResult(title, message) {
 	document.getElementById("txtEndMessage").style.color = COLORS.green;
 
 }
-
 
 /**
  * Calculates the win condition and displays it.
@@ -124,7 +123,6 @@ function gameResult(computerResult, playerResult) {
 		setResult('', 'You Win');
 	}
 }
-
 
 /**
  * This function gives the computer a random value and displays the game result.
@@ -163,4 +161,3 @@ function start() {
 	gameResult(computerChoice, playerChoice);
 	document.getElementById('endScreen').style.display = 'block';
 }
-
