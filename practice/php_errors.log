@@ -373,3 +373,38 @@
 [24-Oct-2018 19:04:56 UTC] PHP Stack trace:
 [24-Oct-2018 19:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:0
 [24-Oct-2018 19:04:56 UTC] PHP   2. addToItiterary() /home/ubuntu/workspace/cst336/practice/midtermPractice/index.php:140
+[28-Nov-2018 23:38:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/practice/poll/results.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/results.php(50): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/results.php on line 50
+[28-Nov-2018 23:38:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/practice/poll/results.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/results.php(50): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/results.php on line 50
+[28-Nov-2018 23:44:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/practice/poll/results.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/results.php(50): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/results.php on line 50
+[28-Nov-2018 23:44:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/practice/poll/results.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/results.php(50): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/results.php on line 50
+[28-Nov-2018 23:44:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/practice/poll/results.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/results.php(50): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/results.php on line 50
+[28-Nov-2018 23:45:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/practice/poll/results.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/results.php(50): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/results.php on line 50
+[28-Nov-2018 23:45:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/practice/poll/results.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/results.php(50): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/results.php on line 50
