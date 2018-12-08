@@ -11,51 +11,83 @@
             body {
                 text-align: center;
             }
+            .carousel-inner {
+                width:500px;
+            }
+            #carouselExampleControls {
+                width:500px;
+            }
         </style>
    
     </head>
     <body>
         
-	<!--Add main menu here -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">CSUMB</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="adoptions.php">Adoptions</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.php">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-        
-        
-        <div class="jumbotron">
-          <h1> CSUMB Animal Shelter</h1>
-          <h2> The "official" animal adoption website of CSUMB </h2>
-        </div>
-        
+	  <?php 
+	    include 'inc/header.php';
+	    
+	  ?>
         <!-- Display Carousel here  -->
+    <center>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/alex.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/bear.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/carl.jpg" alt="Third slide">
+            </div>
+          </div>
+          <div class="carousel-item">
+              <img class="d-block w-100" src="img/charlie.jpg" alt="Fourth slide">
+            </div>
+          </div>
+          <div class="carousel-item">
+              <img class="d-block w-100" src="img/lion.jpg" alt="Fifth slide">
+            </div>
+          </div>
+          <div class="carousel-item">
+              <img class="d-block w-100" src="img/otter.jpg" alt="Sixth slide">
+            </div>
+          </div>
+          <div class="carousel-item">
+              <img class="d-block w-100" src="img/sally.jpg" alt="Seventh slide">
+            </div>
+          </div>
+          <div class="carousel-item">
+              <img class="d-block w-100" src="img/samantha.jpg" alt="Eigth slide">
+            </div>
+          </div>
+          <div class="carousel-item">
+              <img class="d-block w-100" src="img/ted.jpg" alt="Ninth slide">
+            </div>
+          </div>
+          <div class="carousel-item">
+              <img class="d-block w-100" src="img/tiger.jpg" alt="Tenth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </center>
+        
+        <br><br>
         
         
-        <a class="btn btn-outline-success" href="adoptions.php" role="button">Adopt Now</a>
+        <a class="btn btn-outline-success" href="pets.php" role="button">Adopt Now</a>
         <br><br><br>
-        <hr>
-        <footer>
-            
-            Disclaimer: The information on this site is fake.<br>
-            &copy; Lara 2018
-            
-        </footer>
+        <?php
+        include 'inc/footer.php';
         
+        ?>
         </body>
 
 </html>

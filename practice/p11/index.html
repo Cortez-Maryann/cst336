@@ -1,0 +1,59 @@
+<?php
+    include '../../inc/dbConnection.php';
+    $dbConn = startConnection("c9");
+    
+?>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Video Ratings </title>
+        
+        <script>
+        $("document").ready(function(){
+        
+            $("stars").change(function(){
+                var stars = $("stars").val();
+                
+               $.ajax({
+                    type: "GET",
+                    url: "checkRating.php",
+                    dataType: "json",
+                    data: { "stars": stars },
+                    success: function(data,status) {
+                    alert(data);
+                    
+                    },
+                    complete: function(data,status) { //optional, used for debugging purposes
+                    //alert(status);
+                    }
+                });//ajax 
+            });//stars event 
+            
+            });//end of event
+        </script>
+    </head>
+    <body>
+        <h1> Rate this video: </h1>
+        
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe><br><br>
+        Stars: <br>
+        One <input type="radio" name="stars" value="1">
+        Two <input type="radio" name="stars" value="2">
+        Three <input type="radio" name="stars" value="3">
+        Four <input type="radio" name="stars" value="4">
+        
+        <br><br>
+        
+        Total Ratings: <span id = "total"></span>
+        
+        <br><br>
+        
+        Average Rating: <span id = "average"></span>
+        
+
+    </body>
+</html>
