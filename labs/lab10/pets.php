@@ -29,6 +29,14 @@ function getAllPets(){
             body {
                 text-align: center;
             }
+            #petImage {
+              float:left;
+              padding-right:10px;
+            }
+            #info {
+              text-align:left;
+              padding:30px;
+            }
         </style>
    
     </head>
@@ -41,8 +49,6 @@ function getAllPets(){
 	  <script>
 	      $('document').ready(function() {
 	          $('.petLink').click(function() {
-	              $("#container").html("<img src='img/loading.gif' />");
-	              
 	              $('#petModal').modal("show");
 	              $.ajax({
 
@@ -54,7 +60,9 @@ function getAllPets(){
                         $("#petname").html(data.name);
                         $("#description").html(data.description);
                         $("#petImage").attr('src', "img/" + data.pictureURL);
-                        $("#container").html("");
+                        $("#breed").html(data.breed);
+                        $("#age").html(2018 - data.yob);
+                        
                         //alert(data); 
                        
                         
@@ -82,18 +90,22 @@ function getAllPets(){
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="petname">Modal title</h5>
+        <h5 class="modal-title" id="petname"></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-          <div id="container"></div>
+        
         <div>
-	      
 	      <img id = "petImage" src="">
-	      <div id="description">Description: </div>
+	      <br><br>
 	      
+  	      <div id = "info">
+  	        <strong>Age: </strong><span id="age"></span><br>
+  	        <strong>Breed: </strong><span id="breed"></span><br>
+  	        <strong>Description: </strong><span id="description"></span>
+  	      </div>
 	      </div>
       </div>
       <div class="modal-footer">
