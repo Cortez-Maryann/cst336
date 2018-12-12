@@ -59,3 +59,12 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/practice/midterm_practice2.php(92): filterPop()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/practice/midterm_practice2.php on line 14
+[12-Dec-2018 21:28:16 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final/index.php on line 2
+[12-Dec-2018 21:28:16 UTC] PHP Stack trace:
+[12-Dec-2018 21:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[12-Dec-2018 21:28:16 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final/index.php on line 2
+[12-Dec-2018 21:28:16 UTC] PHP Stack trace:
+[12-Dec-2018 21:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[12-Dec-2018 21:28:16 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final/index.php on line 3
+[12-Dec-2018 21:28:16 UTC] PHP Stack trace:
+[12-Dec-2018 21:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
